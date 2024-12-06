@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: "Andale mono", monospace;
+}
+.grid-container {
+}
+.grid-item {
+}
+.nav-bar {
+}
+.nav-bar-content {
+  color: yellow;
+  padding-left: 10%;
+}
+.welcome {
+  color: lawngreen;
+  display: inline-block;
+  padding-left: 10%;
+}
+a {
+  text-decoration: none;
+}
+.page-content {
+}
+.text {
+  color: white;
+  display: inline-block;
+  padding-left: 10%;
+}
+.text-line01 {
+  padding-left: 10%;
+}
+.text-line02 {
+  padding-left: 20%;
+}
+.face-pic {
+  width: 20%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+p {
+  color: white;
+}
