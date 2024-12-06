@@ -13,6 +13,7 @@ body {
   padding-left: 10%;
 }
 .welcome {
+  color: lawngreen;
   display: inline-block;
   padding-left: 10%;
 }
@@ -20,7 +21,6 @@ a {
   text-decoration: none;
 }
 .page-content {
-  background-color: black;
 }
 .text {
   color: white;

@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  font-family: "Andale mono", monospace;
+}
+.grid-container {
+}
+.grid-item {
+}
+.nav-bar {
+}
+.nav-bar-content {
+  color: yellow;
+  padding-left: 10%;
+}
+.welcome {
+  color: lawngreen;
+  display: inline-block;
+  padding-left: 10%;
+}
+a {
+  text-decoration: none;
+}
+.page-content {
+}
+.text {
+  color: white;
+  display: inline-block;
+  padding-left: 10%;
+}
+.text-line01 {
+  color: deepskyblue;
+  display: block;
+  padding-left: 10%;
+}
+.text-line02 {
+  color: deepskyblue;
+  display: block;
+  padding-left: 20%;
+}
+.text-line03 {
+  color: deepskyblue;
+  padding-left: 30%;
+}
+.text-line04 {
+  color: deepskyblue;
+  padding-left: 40%;
+}
+.text-line05 {
+  color: deepskyblue;
+  padding-left: 50%;
+}
+.text-line06 {
+  color: deepskyblue;
+  padding-left: 60%;
+}
+.text-line07 {
+  color: darksalmon;
+  padding-left: 50%;
+}
+.text-line08 {
+  color: darksalmon;
+  padding-left: 52%;
+}
+.text-line09 {
+  color: darksalmon;
+  padding-left: 54%;
+}
+h1 {
+  padding-top: 20%;
+}
+p {
+  color: white;
+}
