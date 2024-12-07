@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8" />
-  <title>Tervetuloa</title>
+  <title>Etusivu</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="../style-sheets/index.css" />
   <body>
-    <div class="grid-container">
-      <div class="grid-item nav-bar">
-        <a class="nav-bar-content welcome" href="./index-fi.html">Tervetuloa</a>
-        <a class="nav-bar-content" href="../my-work/my-work-fi.html">Töitäni</a>
-        <a class="nav-bar-content" href="../contact/contact-fi.html"
+    <div>
+      <div>
+        <a class="nav-bar-tab" id="current-tab" href="./index-fi.html"
+          >Etusivu</a
+        >
+        <a class="nav-bar-tab" href="../about/about-fi.html">Tietoa</a>
+        <a class="nav-bar-tab" href="../my-work/my-work-fi.html">Töitäni</a>
+        <a class="nav-bar-tab" href="../contact/contact-fi.html"
           >Ota yhteyttä</a
         >
-        <a class="nav-bar-content" href="./index-en.html">In English</a>
+        <a class="nav-bar-tab" href="./index-en.html">In English</a>
       </div>
-      <div class="grid-item page-content">
-        <div class="text">
+      <div>
+        <div id="text">
           <h1>Nimeni on Joni Mäkinen</h1>
-          <p class="text-line01">Olen nouseva ohjelmistokehittäjä</p>
-          <p class="text-line02">Tällä sivustolla esittelen töitäni</p>
+          <p id="text-line01">Olen nouseva ohjelmistokehittäjä</p>
+          <p id="text-line02">Tällä sivustolla esittelen töitäni</p>
         </div>
         <img
-          class="face-pic"
+          id="face-pic"
           src="../../assets/img/index/face-pic.png"
           alt="Joni Mäkisen kasvot"
         />

@@ -2,42 +2,33 @@ body {
   background-color: black;
   font-family: "Andale mono", monospace;
 }
-.grid-container {
-}
-.grid-item {
-}
-.nav-bar {
-}
-.nav-bar-content {
-  color: yellow;
-  padding-left: 10%;
-}
-.welcome {
-  color: lawngreen;
-  display: inline-block;
-  padding-left: 10%;
-}
 a {
   text-decoration: none;
-}
-.page-content {
-}
-.text {
-  color: white;
-  display: inline-block;
-  padding-left: 10%;
-}
-.text-line01 {
-  color: deepskyblue;
-  /* display: block; */
-  padding-left: 10%;
-}
-.new-tab-icon {
-  display: inline;
 }
 h1 {
   padding-top: 20%;
 }
 p {
   color: white;
+}
+.nav-bar-tab {
+  color: yellow;
+  padding-left: 10%;
+}
+#current-tab {
+  color: lawngreen;
+  display: inline-block;
+  padding-left: 10%;
+}
+#text {
+  color: white;
+  display: inline-block;
+  padding-left: 10%;
+}
+#text-line {
+  color: deepskyblue;
+  padding-left: 10%;
+}
+#new-tab-icon {
+  display: inline;
 }

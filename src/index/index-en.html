@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8" />
-  <title>Welcome</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="../style-sheets/index.css" />
   <body>
-    <div class="grid-container">
-      <div class="grid-item nav-bar">
-        <a class="nav-bar-content welcome" href="./index-en.html">Welcome</a>
-        <a class="nav-bar-content" href="../my-work/my-work-en.html">My Work</a>
-        <a class="nav-bar-content" href="../contact/contact-en.html">Contact</a>
-        <a class="nav-bar-content" href="./index-fi.html">Suomeksi</a>
+    <div>
+      <div>
+        <a class="nav-bar-tab" id="current-tab" href="./index-en.html">Home</a>
+        <a class="nav-bar-tab" href="../about/about-en.html">About</a>
+        <a class="nav-bar-tab" href="../my-work/my-work-en.html">My Work</a>
+        <a class="nav-bar-tab" href="../contact/contact-en.html">Contact</a>
+        <a class="nav-bar-tab" href="./index-fi.html">Suomeksi</a>
       </div>
-      <div class="grid-item page-content">
-        <div class="text">
+      <div>
+        <div id="text">
           <h1>My name's Joni Mäkinen</h1>
-          <p class="text-line01">I'm an up-and-coming software developer</p>
-          <p class="text-line02">On this website I promote my work</p>
+          <p id="text-line01">I'm an up-and-coming software developer</p>
+          <p id="text-line02">On this website I promote my work</p>
         </div>
         <img
-          class="face-pic"
+          id="face-pic"
           src="../../assets/img/index/face-pic.png"
           alt="Joni Mäkisen kasvot"
         />
