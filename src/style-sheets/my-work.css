@@ -22,7 +22,6 @@ p {
 }
 #text {
   color: white;
-  display: inline-block;
   padding-left: 10%;
 }
 #text-line {
@@ -30,5 +29,5 @@ p {
   padding-left: 10%;
 }
 #new-tab-icon {
-  display: inline;
+  width: 15px;
 }
