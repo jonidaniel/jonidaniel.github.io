@@ -24,9 +24,31 @@ p {
   color: white;
   padding-left: 10%;
 }
-#text-line {
+#text-line01 {
   color: deepskyblue;
   padding-left: 10%;
+}
+#text-line02 {
+  color: deepskyblue;
+  padding-left: 15%;
+}
+#text-line03 {
+  color: deepskyblue;
+  padding-left: 20%;
+}
+#text-line04 {
+  color: deepskyblue;
+  padding-left: 25%;
+}
+#text-line05 {
+  color: deepskyblue;
+  padding-left: 30%;
+}
+#text-line06 {
+  padding-left: 5%;
+}
+#hyperlink-github {
+  color: deepskyblue;
 }
 #new-tab-icon {
   width: 15px;
