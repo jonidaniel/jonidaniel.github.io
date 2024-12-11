@@ -1,51 +1,30 @@
-body {
-  background-color: black;
-  font-family: "Andale mono", monospace;
-}
-a {
-  text-decoration: none;
-}
-h1 {
-  padding-top: 20%;
-}
-p {
-  color: white;
-}
-.nav-bar-tab {
-  color: yellow;
-  padding-left: 10%;
-}
-#current-tab {
-  color: lawngreen;
-  display: inline-block;
-  padding-left: 10%;
-}
 #text {
   color: white;
+  padding-top: 10%;
   padding-left: 10%;
 }
 #text-line01 {
   color: deepskyblue;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 #text-line02 {
   color: deepskyblue;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 #text-line03 {
   color: deepskyblue;
-  padding-left: 20%;
+  padding-left: 15%;
 }
 #text-line04 {
   color: deepskyblue;
-  padding-left: 25%;
+  padding-left: 20%;
 }
 #text-line05 {
   color: deepskyblue;
-  padding-left: 30%;
+  padding-left: 25%;
 }
 #text-line06 {
-  padding-left: 5%;
+  padding-left: 30%;
 }
 #hyperlink-github {
   color: deepskyblue;

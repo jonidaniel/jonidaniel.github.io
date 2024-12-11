@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  font-family: "Andale mono", monospace;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: white;
+}
+.nav-bar-tab {
+  color: yellow;
+  padding-left: 10%;
+}
+#current-tab {
+  color: lawngreen;
+  padding-left: 10%;
+}
