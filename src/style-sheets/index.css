@@ -1,3 +1,4 @@
+/* Mobile */
 @media screen and (max-width: 700px) {
   #text {
     color: white;
@@ -14,9 +15,10 @@
     width: 40%;
     padding-top: 10%;
     padding-left: 28%;
-    padding-right: 72%;
   }
 }
+
+/* Desktop */
 @media screen and (min-width: 700px) {
   #text {
     color: white;
