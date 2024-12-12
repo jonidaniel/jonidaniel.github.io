@@ -2,7 +2,6 @@
   color: white;
   padding-top: 10%;
   padding-left: 10%;
-  padding-right: 20%;
 }
 #text-line01 {
   color: deepskyblue;
@@ -25,7 +24,11 @@
   padding-left: 25%;
 }
 #text-line06 {
-  padding-left: 30%;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+#hyperlink-github-bundle {
+  display: inline-block;
 }
 #hyperlink-github {
   color: deepskyblue;

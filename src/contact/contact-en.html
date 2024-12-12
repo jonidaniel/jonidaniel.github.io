@@ -6,8 +6,28 @@
   <link rel="stylesheet" href="../style-sheets/common.css" />
   <link rel="stylesheet" href="../style-sheets/contact.css" />
   <body>
+    <script>
+      function copyEmailToClipboard(id) {
+        // Create a new Range object for the document
+        var range = document.createRange();
+
+        // Pass an element (the desired email address) to the Range object
+        range.selectNode(document.getElementById(id));
+
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+
+        // Copy the email address to the clipboard
+        document.execCommand("copy");
+
+        window.getSelection().removeAllRanges();
+
+        // Alert about the copied email address
+        alert("Copied: " + range);
+      }
+    </script>
     <div>
-      <div>
+      <div id="nav-bar">
         <a class="nav-bar-tab" href="../index/index-en.html">Home</a>
         <a class="nav-bar-tab" href="../about/about-en.html">About</a>
         <a class="nav-bar-tab" href="../my-work/my-work-en.html">My Work</a>
@@ -97,10 +117,34 @@
               id="new-tab-icon"
               src="../../assets/img/other/new-tab-icon.png"
               alt="Hyperlink opens in a new tab" /></a
-          ><br />
-          <p id="text-line07">joni-makinen@live.fi</p>
-          <p id="text-line08">fossse6@gmail.com</p>
-          <p id="text-line09">joni.d.makinen@student.laurea.fi</p>
+          ><br /><span
+            id="copy-email-bundle01"
+            onclick="copyEmailToClipboard('text-line07')"
+          >
+            <p id="text-line07">joni-makinen@live.fi</p>
+            <img
+              class="copy-to-clipboard-icon"
+              src="../../assets/img/other/copy-to-clipboard-icon.png"
+              alt="Copy email address to clipboard" /></span
+          ><span
+            id="copy-email-bundle02"
+            onclick="copyEmailToClipboard('text-line08')"
+          >
+            <p id="text-line08">fossse6@gmail.com</p>
+            <img
+              class="copy-to-clipboard-icon"
+              src="../../assets/img/other/copy-to-clipboard-icon.png"
+              alt="Copy email address to clipboard" /></span
+          ><span
+            id="copy-email-bundle03"
+            onclick="copyEmailToClipboard('text-line09')"
+          >
+            <p id="text-line09">joni.d.makinen@student.laurea.fi</p>
+            <img
+              class="copy-to-clipboard-icon"
+              src="../../assets/img/other/copy-to-clipboard-icon.png"
+              alt="Copy email address to clipboard"
+          /></span>
         </div>
       </div>
     </div>

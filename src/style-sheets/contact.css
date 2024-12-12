@@ -2,7 +2,6 @@
   color: white;
   padding-top: 10%;
   padding-left: 10%;
-  padding-right: 20%;
 }
 #text-line01 {
   color: deepskyblue;
@@ -30,19 +29,37 @@
 }
 #text-line07 {
   color: darksalmon;
-  padding-left: 10%;
-  padding-right: 20%;
+  display: inline-block;
+  word-break: break-all;
 }
 #text-line08 {
   color: darksalmon;
-  padding-left: 15%;
-  padding-right: 20%;
+  display: inline-block;
+  word-break: break-all;
 }
 #text-line09 {
   color: darksalmon;
-  padding-left: 20%;
-  padding-right: 20%;
+  display: inline-block;
+  word-break: break-all;
 }
 #new-tab-icon {
   width: 15px;
+}
+#copy-email-bundle01 {
+  display: block;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+#copy-email-bundle02 {
+  display: block;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+#copy-email-bundle03 {
+  display: block;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.copy-to-clipboard-icon {
+  width: 12px;
 }
