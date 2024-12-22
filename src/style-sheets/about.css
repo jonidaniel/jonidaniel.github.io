@@ -20,6 +20,7 @@
   color: white;
   padding-top: 10%;
   padding-left: 10%;
+  padding-bottom: 3%;
 }
 #text-line01 {
   padding-left: 5%;
@@ -50,4 +51,12 @@
   color: violet;
   font-size: 20px;
   font-style: bold;
+}
+iframe {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 60%;
+  height: 360px;
 }
