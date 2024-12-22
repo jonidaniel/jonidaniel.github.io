@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Skopera;
+  src: url("../../assets/fonts/skopera.otf");
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
-    transform: translateY(-15px) scale(0.9);
+    transform: translateY(-15px) scale(0.1);
   }
   to {
     opacity: 1;
@@ -35,4 +40,14 @@
 #text-line05 {
   padding-left: 25%;
   padding-right: 20%;
+}
+.highlight {
+  color: violet;
+  font-family: "Skopera";
+  font-size: 20px;
+}
+.highlight-special-character {
+  color: violet;
+  font-size: 20px;
+  font-style: bold;
 }
