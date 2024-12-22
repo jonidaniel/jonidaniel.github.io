@@ -1,18 +1,29 @@
-@keyframes fade-in {
+@keyframes fade-right {
   from {
     opacity: 0;
-    transform: translateY(-15px) scale(0.9);
+    transform: translateX(-1500px) scale(0.9);
   }
   to {
     opacity: 1;
-    transform: translateY(0px) scale(1);
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(1500px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 719px) {
   #text {
-    animation-name: fade-in;
+    animation-name: fade-left;
     animation-duration: 1s;
     color: white;
     padding-top: 10%;
@@ -26,7 +37,7 @@
     padding-left: 10%;
   }
   #face-pic {
-    animation-name: fade-in;
+    animation-name: fade-right;
     animation-duration: 2s;
     padding-top: 7%;
     padding-left: 28%;
@@ -37,8 +48,8 @@
 /* Desktop */
 @media screen and (min-width: 720px) {
   #text {
-    animation-name: fade-in;
-    animation-duration: 1s;
+    animation-name: fade-left;
+    animation-duration: 0.25s;
     color: white;
     display: inline-block;
     padding-left: 10%;
@@ -50,8 +61,8 @@
     padding-left: 10%;
   }
   #face-pic {
-    animation-name: fade-in;
-    animation-duration: 2s;
+    animation-name: fade-right;
+    animation-duration: 1s;
     padding-top: 12%;
     padding-left: 1%;
     width: 20%;
