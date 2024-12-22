@@ -6,28 +6,28 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
-.grid_item {
+.grid-item {
   border: 1px solid white;
   text-align: center;
 }
 .header {
   height: 140px;
-  background-image: url(../images/mental-run/header-background.png) no-repeat
-    right 0px;
+  /* background-image: url(../images/mental-run/header-background.png) no-repeat
+    right 0px; */
 }
-.navigation_bar {
+.navigation-bar {
   background-color: black;
   text-align: center;
   line-height: 1;
 }
-.navigation_bar a {
+.navigation-bar a {
   padding: 0px 10px;
 }
 a {
   text-decoration: none;
   color: deepskyblue;
 }
-.navigation_bar a:hover {
+.navigation-bar a:hover {
   color: antiquewhite;
 }
 .pictures {
@@ -38,22 +38,22 @@ a {
 .left {
   display: inline;
 }
-.second_left {
+.second-left {
   display: inline;
 }
-.second_right {
+.second-right {
   display: none;
 }
 .right {
   display: none;
 }
-.middle_sized_pictures {
+.middle-sized-pictures {
   display: none;
 }
-.large_pictures {
+.large-pictures {
   display: none;
 }
-.trailer object {
+.trailer iframe {
   width: 90%;
   height: 280px;
 }
@@ -61,7 +61,7 @@ a {
   text-align: left;
   padding: 0px 20px;
 }
-.team_members {
+.team-members {
   padding: 0px 20px;
   display: block;
   margin-left: auto;
@@ -81,7 +81,7 @@ ul li {
 
 /* This definition is in effect if the screen width is 390px minimum */
 @media screen and (min-width: 390px) {
-  .second_right {
+  .second-right {
     display: inline;
   }
 }
@@ -100,19 +100,18 @@ ul li {
   .left {
     display: none;
   }
-  .second_left {
+  .second-left {
     display: none;
   }
-  .second_right {
+  .second-right {
     display: none;
   }
   .right {
     display: none;
   }
-  .middle_sized_pictures {
+  .middle-sized-pictures {
     display: inline;
   }
-
   /* Small headers are center aligned when the grid is used */
   h3 {
     text-align: center;
@@ -120,7 +119,7 @@ ul li {
 
   /* These are the grid definitions
      The grid consists of four columns and six rows */
-  .grid_container {
+  .grid-container {
     display: grid;
     /* This defines that the grid is divided into four equally wide columns */
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -134,11 +133,11 @@ ul li {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
   }
-  .navigation_bar {
+  .navigation-bar {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
   }
-  .navigation_bar a {
+  .navigation-bar a {
     padding: 0px 50px;
   }
   .pictures {
@@ -156,7 +155,7 @@ ul li {
     grid-column: 3 / 5;
     grid-row: 4 / 5;
   }
-  .team_members {
+  .team-members {
     grid-column: 1 / 5;
     grid-row: 5 / 6;
   }
@@ -169,10 +168,10 @@ ul li {
 /* These definitions are in effect if the screen width is 1185px minimum */
 @media screen and (min-width: 1185px) {
   /* Middle sized pictures disappear and large pictures appear */
-  .middle_sized_pictures {
+  .middle-sized-pictures {
     display: none;
   }
-  .large_pictures {
+  .large-pictures {
     display: inline;
   }
 }
