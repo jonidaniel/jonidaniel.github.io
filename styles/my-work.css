@@ -20,6 +20,17 @@
   color: deepskyblue;
   padding-left: 5%;
 }
+#text-line01-explanation01 {
+  font-size: 10px;
+  padding-left: 6%;
+}
+#text-line01-explanation02 {
+  font-size: 10px;
+  padding-left: 7%;
+}
+#apk {
+  color: deepskyblue;
+}
 #text-line02 {
   color: deepskyblue;
   padding-left: 10%;
