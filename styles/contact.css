@@ -24,22 +24,6 @@
   color: deepskyblue;
   padding-left: 10%;
 }
-#text-line03 {
-  color: deepskyblue;
-  padding-left: 15%;
-}
-#text-line04 {
-  color: deepskyblue;
-  padding-left: 20%;
-}
-#text-line05 {
-  color: deepskyblue;
-  padding-left: 25%;
-}
-#text-line06 {
-  color: deepskyblue;
-  padding-left: 30%;
-}
 #text-line07 {
   color: darksalmon;
   cursor: pointer;
@@ -47,12 +31,6 @@
   word-break: break-all;
 }
 #text-line08 {
-  color: darksalmon;
-  cursor: pointer;
-  display: inline-block;
-  word-break: break-all;
-}
-#text-line09 {
   color: darksalmon;
   cursor: pointer;
   display: inline-block;
@@ -69,11 +47,6 @@
 #copy-email-bundle02 {
   display: block;
   padding-left: 15%;
-  padding-right: 20%;
-}
-#copy-email-bundle03 {
-  display: block;
-  padding-left: 20%;
   padding-right: 20%;
 }
 .copy-to-clipboard-icon {
