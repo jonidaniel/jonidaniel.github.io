@@ -80,8 +80,8 @@
   padding-left: 27%;
 }
 #text-line06 {
-  padding-left: 10%;
-  padding-right: 20%;
+  color: deepskyblue;
+  padding-left: 30%;
 }
 #text-line06-explanation01 {
   font-size: 10px;
@@ -91,6 +91,42 @@
   font-size: 10px;
   padding-left: 32%;
 }
+#text-line07 {
+  color: deepskyblue;
+  padding-left: 35%;
+}
+#text-line07-explanation01 {
+  font-size: 10px;
+  padding-left: 36%;
+}
+#text-line07-explanation02 {
+  font-size: 10px;
+  padding-left: 37%;
+}
+#text-line08 {
+  color: deepskyblue;
+  padding-left: 40%;
+}
+#text-line08-explanation01 {
+  font-size: 10px;
+  padding-left: 41%;
+}
+#text-line08-explanation02 {
+  font-size: 10px;
+  padding-left: 42%;
+}
+#text-line09 {
+  padding-left: 10%;
+  padding-right: 20%;
+}
+/* #text-line06-explanation01 {
+  font-size: 10px;
+  padding-left: 31%;
+}
+#text-line06-explanation02 {
+  font-size: 10px;
+  padding-left: 32%;
+} */
 #hyperlink-github-bundle {
   display: inline-block;
 }
