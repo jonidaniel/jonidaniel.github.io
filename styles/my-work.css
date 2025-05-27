@@ -35,21 +35,61 @@
   color: deepskyblue;
   padding-left: 10%;
 }
+#text-line02-explanation01 {
+  font-size: 10px;
+  padding-left: 11%;
+}
+#text-line02-explanation02 {
+  font-size: 10px;
+  padding-left: 12%;
+}
 #text-line03 {
   color: deepskyblue;
   padding-left: 15%;
+}
+#text-line03-explanation01 {
+  font-size: 10px;
+  padding-left: 16%;
+}
+#text-line03-explanation02 {
+  font-size: 10px;
+  padding-left: 17%;
 }
 #text-line04 {
   color: deepskyblue;
   padding-left: 20%;
 }
+#text-line04-explanation01 {
+  font-size: 10px;
+  padding-left: 21%;
+}
+#text-line04-explanation02 {
+  font-size: 10px;
+  padding-left: 22%;
+}
 #text-line05 {
   color: deepskyblue;
   padding-left: 25%;
 }
+#text-line05-explanation01 {
+  font-size: 10px;
+  padding-left: 26%;
+}
+#text-line05-explanation02 {
+  font-size: 10px;
+  padding-left: 27%;
+}
 #text-line06 {
   padding-left: 10%;
   padding-right: 20%;
+}
+#text-line06-explanation01 {
+  font-size: 10px;
+  padding-left: 31%;
+}
+#text-line06-explanation02 {
+  font-size: 10px;
+  padding-left: 32%;
 }
 #hyperlink-github-bundle {
   display: inline-block;
